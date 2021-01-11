@@ -1,5 +1,6 @@
 using UnityEditor;
-//[CustomEditor(typeof(ObjectPool))]
+using Incineration.Core.ObjectPooling;
+[CustomEditor(typeof(ObjectPool))]
 public class ObjectPoolInspector : Editor
 {
     public override void OnInspectorGUI()
