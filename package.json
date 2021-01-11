@@ -1,0 +1,19 @@
+{
+  "name": "com.incineration.simpleObjectPool",
+  "version": "1.0.0",
+  "displayName": "Simple Object Pool",
+  "description": "Provides basic Object pooling functionality",
+  "unity": "2019.1",
+  "unityRelease": "0b5",
+ 
+ "keywords": [
+    "pooling",
+    "pool",
+    "object"
+  ],
+  "author": {
+    "name": "Incineration Productions",
+    "email": "support@incineration.games",
+    "url": "https://www.incineration.games"
+  }
+}

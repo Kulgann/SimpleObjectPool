@@ -90,6 +90,14 @@ public class ObjectPool : MonoBehaviour
         return temp;
     }
     #endregion
+
+    public void ReturnObjectToPool(GameObject obj)
+    {
+        obj.SetActive(false);
+        obj.transform.parent = this.transform;
+        obj.transform.position = Vector3.zero;
+        obj.transform.rotation = Quaternion.identity;
+    }
 }
 [System.Serializable]
 public class PooledObject 
