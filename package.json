@@ -1,5 +1,5 @@
 {
-  "name": "com.incineration.simpleObjectPool",
+  "name": "com.incineration.simpleobjectpool",
   "version": "1.0.0",
   "displayName": "Simple Object Pool",
   "description": "Provides basic Object pooling functionality",
